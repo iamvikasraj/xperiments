@@ -1,13 +1,13 @@
 //
-//  June10UITestsLaunchTests.swift
-//  June10UITests
+//  xperimentsUITestsLaunchTests.swift
+//  xperimentsUITests
 //
 //  Created by Vikas Raj Yadav on 10/06/25.
 //
 
 import XCTest
 
-final class June10UITestsLaunchTests: XCTestCase {
+final class xperimentsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

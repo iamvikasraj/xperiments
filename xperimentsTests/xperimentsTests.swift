@@ -1,13 +1,13 @@
 //
-//  June10Tests.swift
-//  June10Tests
+//  xperimentsTests.swift
+//  xperimentsTests
 //
 //  Created by Vikas Raj Yadav on 10/06/25.
 //
 
 import Testing
 
-struct June10Tests {
+struct xperimentsTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

@@ -147,8 +147,8 @@ extension View {
 
 // MARK: - Main View
 struct GlassButton: View {
-    @State private var buttonLabel = "Wanna Count?"
-    @State private var progress: Int = 0
+    @State private var buttonLabel = "1"
+    @State private var progress: Int = 1
     @State private var isAnimating = false
 
     var body: some View {
@@ -159,7 +159,8 @@ struct GlassButton: View {
                 progress = 0
                 animateProgress()
             }
-            .buttonStyle(.plain)
+            .scaleEffect(1.3)
+            .buttonStyle(PlainButtonStyle())
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.frostedBackgroundGradient)

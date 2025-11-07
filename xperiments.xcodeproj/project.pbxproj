@@ -12,37 +12,37 @@
 			containerPortal = 322C9C6D2DF7E988002CD3B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 322C9C742DF7E988002CD3B5;
-			remoteInfo = June10;
+			remoteInfo = xperiments;
 		};
 		322C9C8D2DF7E98A002CD3B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 322C9C6D2DF7E988002CD3B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 322C9C742DF7E988002CD3B5;
-			remoteInfo = June10;
+			remoteInfo = xperiments;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		322C9C752DF7E988002CD3B5 /* June10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = June10.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		322C9C822DF7E98A002CD3B5 /* June10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = June10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		322C9C8C2DF7E98A002CD3B5 /* June10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = June10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322C9C752DF7E988002CD3B5 /* xperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322C9C822DF7E98A002CD3B5 /* xperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322C9C8C2DF7E98A002CD3B5 /* xperimentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xperimentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		322C9C772DF7E988002CD3B5 /* June10 */ = {
+		322C9C772DF7E988002CD3B5 /* xperiments */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = June10;
+			path = xperiments;
 			sourceTree = "<group>";
 		};
-		322C9C852DF7E98A002CD3B5 /* June10Tests */ = {
+		322C9C852DF7E98A002CD3B5 /* xperimentsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = June10Tests;
+			path = xperimentsTests;
 			sourceTree = "<group>";
 		};
-		322C9C8F2DF7E98A002CD3B5 /* June10UITests */ = {
+		322C9C8F2DF7E98A002CD3B5 /* xperimentsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = June10UITests;
+			path = xperimentsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		322C9C6C2DF7E988002CD3B5 = {
 			isa = PBXGroup;
 			children = (
-				322C9C772DF7E988002CD3B5 /* June10 */,
-				322C9C852DF7E98A002CD3B5 /* June10Tests */,
-				322C9C8F2DF7E98A002CD3B5 /* June10UITests */,
+				322C9C772DF7E988002CD3B5 /* xperiments */,
+				322C9C852DF7E98A002CD3B5 /* xperimentsTests */,
+				322C9C8F2DF7E98A002CD3B5 /* xperimentsUITests */,
 				322C9C762DF7E988002CD3B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		322C9C762DF7E988002CD3B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				322C9C752DF7E988002CD3B5 /* June10.app */,
-				322C9C822DF7E98A002CD3B5 /* June10Tests.xctest */,
-				322C9C8C2DF7E98A002CD3B5 /* June10UITests.xctest */,
+				322C9C752DF7E988002CD3B5 /* xperiments.app */,
+				322C9C822DF7E98A002CD3B5 /* xperimentsTests.xctest */,
+				322C9C8C2DF7E98A002CD3B5 /* xperimentsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		322C9C742DF7E988002CD3B5 /* June10 */ = {
+		322C9C742DF7E988002CD3B5 /* xperiments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 322C9C962DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "June10" */;
+			buildConfigurationList = 322C9C962DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "xperiments" */;
 			buildPhases = (
 				322C9C712DF7E988002CD3B5 /* Sources */,
 				322C9C722DF7E988002CD3B5 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				322C9C772DF7E988002CD3B5 /* June10 */,
+				322C9C772DF7E988002CD3B5 /* xperiments */,
 			);
-			name = June10;
+			name = xperiments;
 			packageProductDependencies = (
 			);
-			productName = June10;
-			productReference = 322C9C752DF7E988002CD3B5 /* June10.app */;
+			productName = xperiments;
+			productReference = 322C9C752DF7E988002CD3B5 /* xperiments.app */;
 			productType = "com.apple.product-type.application";
 		};
-		322C9C812DF7E98A002CD3B5 /* June10Tests */ = {
+		322C9C812DF7E98A002CD3B5 /* xperimentsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 322C9C992DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "June10Tests" */;
+			buildConfigurationList = 322C9C992DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "xperimentsTests" */;
 			buildPhases = (
 				322C9C7E2DF7E98A002CD3B5 /* Sources */,
 				322C9C7F2DF7E98A002CD3B5 /* Frameworks */,
@@ -131,18 +131,18 @@
 				322C9C842DF7E98A002CD3B5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				322C9C852DF7E98A002CD3B5 /* June10Tests */,
+				322C9C852DF7E98A002CD3B5 /* xperimentsTests */,
 			);
-			name = June10Tests;
+			name = xperimentsTests;
 			packageProductDependencies = (
 			);
-			productName = June10Tests;
-			productReference = 322C9C822DF7E98A002CD3B5 /* June10Tests.xctest */;
+			productName = xperimentsTests;
+			productReference = 322C9C822DF7E98A002CD3B5 /* xperimentsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		322C9C8B2DF7E98A002CD3B5 /* June10UITests */ = {
+		322C9C8B2DF7E98A002CD3B5 /* xperimentsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 322C9C9C2DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "June10UITests" */;
+			buildConfigurationList = 322C9C9C2DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "xperimentsUITests" */;
 			buildPhases = (
 				322C9C882DF7E98A002CD3B5 /* Sources */,
 				322C9C892DF7E98A002CD3B5 /* Frameworks */,
@@ -154,13 +154,13 @@
 				322C9C8E2DF7E98A002CD3B5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				322C9C8F2DF7E98A002CD3B5 /* June10UITests */,
+				322C9C8F2DF7E98A002CD3B5 /* xperimentsUITests */,
 			);
-			name = June10UITests;
+			name = xperimentsUITests;
 			packageProductDependencies = (
 			);
-			productName = June10UITests;
-			productReference = 322C9C8C2DF7E98A002CD3B5 /* June10UITests.xctest */;
+			productName = xperimentsUITests;
+			productReference = 322C9C8C2DF7E98A002CD3B5 /* xperimentsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 322C9C702DF7E988002CD3B5 /* Build configuration list for PBXProject "June10" */;
+			buildConfigurationList = 322C9C702DF7E988002CD3B5 /* Build configuration list for PBXProject "xperiments" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				322C9C742DF7E988002CD3B5 /* June10 */,
-				322C9C812DF7E98A002CD3B5 /* June10Tests */,
-				322C9C8B2DF7E98A002CD3B5 /* June10UITests */,
+				322C9C742DF7E988002CD3B5 /* xperiments */,
+				322C9C812DF7E98A002CD3B5 /* xperimentsTests */,
+				322C9C8B2DF7E98A002CD3B5 /* xperimentsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		322C9C842DF7E98A002CD3B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 322C9C742DF7E988002CD3B5 /* June10 */;
+			target = 322C9C742DF7E988002CD3B5 /* xperiments */;
 			targetProxy = 322C9C832DF7E98A002CD3B5 /* PBXContainerItemProxy */;
 		};
 		322C9C8E2DF7E98A002CD3B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 322C9C742DF7E988002CD3B5 /* June10 */;
+			target = 322C9C742DF7E988002CD3B5 /* xperiments */;
 			targetProxy = 322C9C8D2DF7E98A002CD3B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,7 +412,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shoonya.June10;
+				PRODUCT_BUNDLE_IDENTIFIER = shoonya.xperiments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -454,7 +454,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shoonya.June10;
+				PRODUCT_BUNDLE_IDENTIFIER = shoonya.xperiments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -480,7 +480,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shoonya.June10Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = shoonya.xperimentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -489,7 +489,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/June10.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/June10";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xperiments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xperiments";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -505,7 +505,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shoonya.June10Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = shoonya.xperimentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -514,7 +514,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/June10.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/June10";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xperiments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xperiments";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -529,7 +529,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shoonya.June10UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = shoonya.xperimentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -538,7 +538,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = June10;
+				TEST_TARGET_NAME = xperiments;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -553,7 +553,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shoonya.June10UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = shoonya.xperimentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -562,7 +562,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = June10;
+				TEST_TARGET_NAME = xperiments;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		322C9C702DF7E988002CD3B5 /* Build configuration list for PBXProject "June10" */ = {
+		322C9C702DF7E988002CD3B5 /* Build configuration list for PBXProject "xperiments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322C9C942DF7E98A002CD3B5 /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		322C9C962DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "June10" */ = {
+		322C9C962DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "xperiments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322C9C972DF7E98A002CD3B5 /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		322C9C992DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "June10Tests" */ = {
+		322C9C992DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "xperimentsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322C9C9A2DF7E98A002CD3B5 /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		322C9C9C2DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "June10UITests" */ = {
+		322C9C9C2DF7E98A002CD3B5 /* Build configuration list for PBXNativeTarget "xperimentsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322C9C9D2DF7E98A002CD3B5 /* Debug */,
