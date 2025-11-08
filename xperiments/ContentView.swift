@@ -22,7 +22,7 @@ struct ContentView: View {
                 .blur(radius: isEditing ? 1 : 0)
                 .scaleEffect(isEditing ? 1.1 : 1.0)
                 .animation(.easeInOut(duration: 0.3), value: isEditing)
-                .animation(.easeInOut(duration: 0.5), value: speed)
+                .animation(.easeInOut(duration: 0.3), value: speed)
            
             Slider( value: $speed, in: 0...99, step: 1,
                 onEditingChanged: { editing in
@@ -35,7 +35,7 @@ struct ContentView: View {
             .focusable(false)
             .frame(width: 120)
             .opacity(isEditing ? 1 : 0.9)
-            .animation(.spring(duration: 0.3), value: isEditing)
+            .animation(.spring(duration: 0.8), value: isEditing)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color(red: 203/255, green: 203/255, blue: 205/255))
